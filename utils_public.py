@@ -92,7 +92,7 @@ def plot_grid_image(grid, on_ax=None):
     names = ["Residential", "Industrial", "Commercial", "Park", "Office"]
     sprites = []
     for i in range(5):
-        file = f"sprites/{names[i]}.jpg"
+        file = f"assets/{names[i]}.jpg"
         img = PIL.Image.open(file)
         img = np.array(img)
         sprites.append(img)
@@ -116,7 +116,7 @@ def plot_districts():
     fig, ax = plt.subplots(1,5, figsize=(14, 3))
     names = ["Residential", "Industrial", "Commercial", "Park", "Office"]
     for i in range(5):
-        file = f"sprites/{names[i]}_high_res.jpg"
+        file = f"assets/{names[i]}_high_res.jpg"
         img = PIL.Image.open(file)
         ax[i].imshow(img)
         ax[i].axis("off")
