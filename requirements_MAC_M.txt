@@ -1,0 +1,7 @@
+scipy
+jupyter
+matplotlib
+numpy==2
+pandas
+scikit-learn
+autogluon
