@@ -5,3 +5,4 @@ numpy==2
 pandas
 scikit-learn
 autogluon
+bokeh==2.0.1
